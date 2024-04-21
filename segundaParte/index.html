@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>LIKES</title>
+</head>
+
+<body>
+    <header>Network</header>
+
+    <div>
+        <h1 class="feed">Your Feed</h1>
+    </div>
+
+    <div class="container-main">
+        <div class="left-container">
+            <img src="img/user-circle.png" alt="user circle" class="image"> <br>
+            <a href="#" class="avatar">Add an avatar</a>
+            <h2 class="name"> James Doe</h2>
+        </div>
+        <div class="right-container">
+            <div class="container">
+                <div class="title">
+                    <h2>Neil M</h2>
+                    <p id="like1">9 like(s)</p>
+                    <button class="btn" onclick="like()">Like</button>
+                </div>
+                <div class="content">
+                    I just set up this new discord bot, let me know what you all think. 
+                    <span><a href="#" class="link">link</a></span>
+                </div> 
+            </div>
+
+            <div class="container">
+                <div class="title">
+                    <h2>Nichole K</h2>
+                    <p id="like2">12 like(s)</p>
+                    <button class="btn" onclick="like2()">Like</button>
+                </div>
+                <div class="content">
+                    Just ginished my <span><a href="#" class="comic"> next comic</a></span>, check it out
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="title">
+                    <h2>Jim R</h2>
+                    <p id="like3">9 like(s)</p>
+                    <button class="btn" onclick="like3()">Like</button>
+                </div>
+                <div class="content">
+                    i can't stop listening to the <span><a href="#" class="album">new album</a></span>. Who else is liking it?
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

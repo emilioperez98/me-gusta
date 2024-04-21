@@ -1,0 +1,56 @@
+.container {
+    border: 2px solid black;
+    margin: 80px 120px;
+    width: 500px;   
+    align-items: center;
+    font-family: "Varela Round", sans-serif;
+    font-weight: bold;
+    justify-items: left;
+    align-items: center;
+    box-shadow: 2px 2px black;
+}
+
+.title {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-family: "Varela Round", sans-serif;
+    font-weight: bold;
+
+}
+.user{
+    padding-left: 20px  
+
+}
+
+#like{
+    margin-left: 105px;
+    width: 80px;
+}
+
+.btn {
+    margin-left: 60px;
+    width: 60px;
+    height: 30px;
+    background-color: #FFD966;
+    color: black;
+    box-shadow: 3px 3px black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: 90%;
+}
+.content{
+    padding: 20px;
+    font-size: 20px;
+}
+
+.righty {
+    border: 2px solid black;
+    width: 50px;
+    height: 100px;
+    padding-top: 10px 5px;
+    
+}
